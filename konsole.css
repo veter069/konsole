@@ -1,0 +1,22 @@
+QTabBar,
+QTabWidget::tab-bar {
+    background-color: rgb(45, 45, 45);
+}
+QTabBar::tab
+{
+    /* font-size: 11px;*/
+    /* height: 16px; */
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    background-color: rgb(0, 0, 0);
+    color: rgb(15, 240, 34);
+}
+QTabBar::tab:selected
+{
+    font-weight: bold;
+    background-color: rgb(39, 35, 35);
+    color: rgb(15, 240, 34);
+    border: 0px;
+    padding: 2px;
+    border-bottom: 3px solid palette(dark);
+}
